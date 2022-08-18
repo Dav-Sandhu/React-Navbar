@@ -1,4 +1,4 @@
-A basic easy-to-use navigation bar for websites made in react, to use it simply add the folder to your local React project and import it into whichever file you wish to use it in using "import Navbar from './foldername/Navbar'". After that you can implement it by adding a Navbar component with the properties of title="your-title" items={items-arr} funcs={funcs-arr}, with the items being the content of the navigation bar, where you add the list of names as strings to an array that is then sent as a prop to the Navbar component and the funcs array being their corresponding methods for the onClick events. 
+A basic easy-to-use navigation bar for websites made in react, to use it simply add the folder to your local React project and import it into whichever file you wish to use it in using "import Navbar from './foldername/Navbar'". After that you can implement it by adding a Navbar component with the properties of title="your-title" items={items-arr} funcs={funcs-arr}, with the "items" being the content of the navigation bar, and the "funcs" being their corresponding functions. 
 ```javascript
  import Navbar from './Navbar'
 

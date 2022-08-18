@@ -6,7 +6,9 @@ A basic easy-to-use navigation bar for websites made in react, to use it simply 
   let items = ["Main", "Projects", "Games", "About"]
   let funcs = [() => {console.log("Main")}, () => {console.log("Projects")}, () => {console.log("Games")}, () => {console.log("About")}]
   return (
+   <>
     <Navbar title="Website" items={items} funcs={funcs} />
+   </>
   )
  }
 ```

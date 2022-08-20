@@ -1,6 +1,6 @@
 import './Navbar.css'
 
-const Navbar = ({title, items, funcs}) => {
+const Navbar = ({title, items}) => {
 
   let key = 0
 
@@ -9,7 +9,7 @@ const Navbar = ({title, items, funcs}) => {
       <span className="title">{title}</span>
       <span className="items">
         {items.map(i => 
-          <span key={key++} className="item" onClick={funcs[key]} >{i}</span>
+          <span key={key++} className="item" onClick={i.event[key]} >{i.name}</span>
         )}
       </span>
     </nav>

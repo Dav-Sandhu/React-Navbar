@@ -9,7 +9,7 @@ const Navbar = ({title, items}) => {
       <span className="title">{title}</span>
       <span className="items">
         {items.map(i => 
-          <span key={key++} className="item" onClick={i.event[key]} >{i.name}</span>
+          <span key={key++} className="item" onClick={i.clickEvent} >{i.name}</span>
         )}
       </span>
     </nav>

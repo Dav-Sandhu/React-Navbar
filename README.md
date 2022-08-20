@@ -24,9 +24,7 @@ A basic easy-to-use navigation bar for websites made in react, to use it simply 
  ]
   
   return (
-   <>
     <Navbar title="Website" items={items} />
-   </>
   )
  }
  

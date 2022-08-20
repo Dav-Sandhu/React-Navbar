@@ -35,9 +35,9 @@ A basic easy-to-use navigation bar for websites made in react, to use it simply 
 Also make sure that in your top level css file that you have the following for best implementation:
 ```css
 *{
- margin: 0px;
- padding: 0px;
-}
+  margin: 0px;
+  padding: 0px;
+ }
 ```
 When fully implemented it should look as follows:
 

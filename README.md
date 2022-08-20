@@ -7,19 +7,19 @@ A basic easy-to-use navigation bar for websites made in react, to use it simply 
  const items = [
     {
       name: "Home",
-      event: () => {console.log("Home")}
+      clickEvent: () => {console.log("Home")}
     },
     {
       name: "Projects",
-      event: () => {console.log("Projects")}
+      clickEvent: () => {console.log("Projects")}
     },
     {
       name: "Games",
-      event: () => {console.log("Games")}
+      clickEvent: () => {console.log("Games")}
     },
     {
       name: "About",
-      event: () => {console.log("About")}
+      clickEvent: () => {console.log("About")}
     }
  ]
   

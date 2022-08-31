@@ -13,14 +13,15 @@
 
 .items{
   position: relative;
+  display: flex;
+  justify-content: space-around;
   text-align: center;
   top: 1.6vw;
-  flex: 4;
+  flex: 3;
   font-size: 3vw;
 }
 
 .item{
-  margin-left: 5vw;
   user-select: none;
   text-decoration: none; 
   color: black;
